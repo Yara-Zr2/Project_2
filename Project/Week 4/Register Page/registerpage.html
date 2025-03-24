@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gentleman's Coffee</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="Logo.png" alt="Logo" height="90">
+            </div>
+            <div class="dropdown">
+                <div class="login">
+                  <img src="Beans.png" alt="login_logo" height="45" onclick="toggleDropdown()">
+                  <div id="dropdownContent" class="dropdown-content">
+                    <a href="#">Login</a>
+                    <a href="#">Register</a>
+                  </div>
+                </div>
+              </div>
+            <div class="zoek">
+                <a href="#">
+                <img src="vergrootglas.png" alt="zoek" height="40">
+                </a>
+            </div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Register</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="register">
+        <div class="box">
+            <h1>Register</h1>
+            <form class="container">
+                <label for="email">Email</label>
+                <input type="email" name="email" placeholder="Enter Email">
+            </form>
+            <form class="container">
+                <label for="fullName">Full name</label>
+                <input type="text" name="fullName" placeholder="Enter Full name">
+            </form>
+            <form class="container">
+                <label for="telephone">Telephone number</label>
+                <input type="text" name="telephone" placeholder="Enter Telephone number">
+            </form>
+            <br>
+            <form class="checkbox">
+                <input type="checkbox" name="checkbox">
+                <label for="checkbox">I agree to the terms and conditions</label>
+            </form>
+            <form class="submit">
+                <input type="submit" value="Register">
+            </form>
+        </div>
+    </div>  
+</body>
+</html>

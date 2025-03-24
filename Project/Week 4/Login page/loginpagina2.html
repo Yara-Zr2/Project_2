@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="loginpagina2.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Login</h1>
+        <form>
+            <label for="uname"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" required>
+            
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+                    
+            <button type="submit">Login</button>
+            <label>
+                <input type="checkbox" checked="checked" name="remember"> Remember me
+            </label>
+        </form>
+        
+        <div class="register-link">
+            <span class="psw">Not registered? <a href="#">Create an account</a></span>
+        </div>
+    </div>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="Logo.png" alt="Logo" height="90">
+            </div>
+            <div class="dropdown">
+                <div class="login">
+                  <img src="Beans.png" alt="login_logo" height="45" onclick="toggleDropdown()">
+                  <div id="dropdownContent" class="dropdown-content">
+                    <a href="#">Login</a>
+                    <a href="#">Register</a>
+                  </div>
+                </div>
+              </div>
+            <div class="zoek">
+                <a href="#">
+                <img src="vergrootglas.png" alt="zoek" height="40">
+                </a>
+            </div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Register</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+</body>
+</html>

@@ -1,0 +1,72 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 400px; /* Aangepaste breedte voor betere weergave */
+    margin: auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding: 20px; /* Toegevoegde padding voor betere opmaak */
+}
+
+.price {
+    color: #333; /* Aangepaste tekstkleur voor leesbaarheid */
+    font-size: 24px; /* Iets grotere tekstgrootte voor betere zichtbaarheid */
+    margin-top: 10px; /* Ruimte boven de prijs toegevoegd */
+}
+
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    margin-top: 15px; /* Ruimte boven de knop toegevoegd */
+}
+
+.card button:hover {
+    opacity: 0.7;
+}
+
+/* Diavoorstelling (Slideshow) CSS */
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin-top: 20px;
+}
+
+.mySlides {
+    display: none;
+}
+
+.fade {
+    animation: fade 1.5s ease-in-out infinite;
+}
+
+@keyframes fade {
+    from { opacity: 0.4; }
+    to { opacity: 1; }
+}
+
+.product-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.product-info {
+    flex: 1;
+}
+
+.other-flavors {
+    flex: 1;
+}
+
+.flavor {
+    margin-bottom: 20px;
+}
+

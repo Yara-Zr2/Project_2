@@ -1,0 +1,163 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #e0c1a769;
+}
+
+.container {
+    width: 40%;
+    padding: 30px;
+    box-sizing: border-box;
+    background-color: #f8f9fa; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+form {
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+    color: #333333;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #f1b443;
+    color: white;
+    padding: 14px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #e19636;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+    color: #333333;
+}
+
+.register-link {
+    text-align: center;
+    margin-top: 16px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Styles for the header */
+header {
+    background-color: transparent; /* Start with transparent background */
+    color: #0b0b0b; /* White text */
+    padding: -10px;
+    text-align: center;
+    width: 100%;
+    z-index: 1000; /* Ensure header is on top */
+    position: fixed;
+    top: 0;
+    transition: background-color 0.3s ease; /* Add transition for background color */
+    height: 75px;
+}
+
+/* Styles for the header when scrolled down */
+header.scrolled {
+    background-color: #c6a68b; /* Dark brown background color */
+}
+
+/* Styles for the logo */
+
+.logo {
+    position: absolute;
+    top: 0px;
+    left: 10px;
+}
+
+.login {
+    position: absolute;
+    top: 10px;
+    right: 25px; 
+}
+
+  /* Dropdown container */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    padding-top: 45px;
+    left: 50%;
+    border: black;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #e6e6e6;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+    top: 100%;
+    right: 0;
+    border: 3px solid rgb(48, 48, 48); /* Added border style */
+}
+
+  /* Links inside the dropdown */
+.dropdown-content a {
+  display: block;
+  border-bottom: 1px solid #000000; /* Add border between links */
+  text-decoration: none;
+  color: black;
+}
+
+.dropdown-content a:last-child {
+    border-bottom: none; /* Remove border from the last link */
+  }
+
+.zoek {
+    position: absolute;
+    top: 15px;
+    right: 150px; 
+}
+
+/* Styles for the navigation */
+nav ul {
+    list-style: none; /* Remove default list style */
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    font-size: 20px;
+    margin-right: 50px;
+}
+
+nav ul li a {
+    color: #0c0c0c; /* White text */
+    text-decoration: none;
+    font-weight: bold;
+}

@@ -1,0 +1,27 @@
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="Logo.png" alt="Logo" height="90">
+            </div>
+            <div class="dropdown">
+                <div class="login">
+                  <img src="Beans.png" alt="login_logo" height="45" onclick="toggleDropdown()">
+                  <div id="dropdownContent" class="dropdown-content">
+                    <a href="#">Login</a>
+                    <a href="#">Register</a>
+                  </div>
+                </div>
+              </div>
+            <div class="zoek">
+                <a href="#">
+                <img src="vergrootglas.png" alt="zoek" height="40">
+                </a>
+            </div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Register</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>

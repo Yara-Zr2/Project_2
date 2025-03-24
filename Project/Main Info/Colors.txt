@@ -1,0 +1,5 @@
+Background: #e0c1a769
+
+Titel Text: #3b3024
+
+More Darker Titel Text: #3b3024

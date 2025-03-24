@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gentlemans Coffee</title>
+    <link rel="stylesheet" href="PVP.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="Logo.png" alt="Logo" height="90">
+            </div>
+            <div class="dropdown">
+                <div class="login">
+                  <img src="Beans.png" alt="login_logo" height="45" onclick="toggleDropdown()">
+                  <div id="dropdownContent" class="dropdown-content">
+                    <a href="loginpagina2.html">Login</a>
+                    <a href="registerpage.html">Register</a>
+                  </div>
+                </div>
+              </div>
+            <div class="zoek">
+                <a href="Zoekfunctie/Zoek.html">
+                <img src="vergrootglas.png" alt="zoek" height="40">
+                </a>
+            </div>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="Product.html">Shop</a></li>
+                <li><a href="registerpage.html">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <br>
+
+
+    <article class="product-card" data-testhook="product-card">
+        <div class="product-image">
+            <img src="Product 6.jpg" alt="Product Image" title="Product Title" data-testhook="product-image">
+        </div>
+        <div class="product-properties">
+            <svg class="properties-icon" viewBox="0 0 24 24" width="22" height="22">
+                <title>Vegan</title>
+                <use href="#svg_vegan-color"></use>
+            </svg>
+        </div>
+        <div class="product-price">
+            <span class="price-amount">Price: € 45.00</span>
+            <br>
+            <span class="product-unit-size">Quantity 1</span>
+        </div>
+        <div class="product-details">
+            <h1 class="product-title">BluMill Coffee Machine - Piston Machine - Including Automatic Milk Frother - Black</h1>
+            <div class="product-description">
+                <p>
+                    With this coffee machine from BluMill, you can make coffee like a true Italian. The coffee machine is suitable for making cappuccino, espresso, and latte macchiato, and it comes with an automatic milk frother. With a power of almost 1500 watts and a water reservoir of 1.2 liters, you can easily make multiple coffee variations in a row.                </p>
+            </div>
+        </div>
+        <div class="product-controls">
+            <a href="Zoekfunctie/Zoek.html">
+            <button class="add-to-cart" aria-label="Add to Cart" type="button" data-testhook="product-plus">Add to Cart</button>
+            </a>
+        </div>
+    </article>
+    
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>Tel. 020-220 3456</p>
+                <br>
+                <p>E-mail gentscoffee@gmail.nl</p>
+                <br>
+                <p>Instagram @gentlemans.coffee</p>
+            </div>
+            <div class="footer-section">
+                <h3>Categories</h3>
+                <ul>
+                    <li></a>Coffee Machines</li>
+                    <li></a>Coffee Capsules</li>
+                    <li></a>Merchandise</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>More Information</h3>
+                <ul>
+                    <li><a href="detailspage.html">About Gentlemans Coffee</a></li>
+                    <li>Stores 
+                    <br>
+                    [Webshop]
+                    </li>
+                    <li>Services 
+                    <br>
+                        [We Offer High Quailty products]
+                    </li>
+                </ul>
+            </div>
+            <img src="Logo black.png" alt="Logo" height="250px">
+        </div>
+    </footer>
+
+        <!-- JavaScript for slideshow -->
+        <script src="script.js"></script>
+
+</body>
+</html>
